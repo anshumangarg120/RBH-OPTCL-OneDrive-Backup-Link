@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OneDrive Backup Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .site {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .site-name {
+      font-weight: bold;
+    }
+    .backup-button {
+      background: #0078D4;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .backup-button:hover {
+      background: #005a9e;
+    }
+    .backup-button1 {
+      background: #d40000;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      
+    }
+    .backup-button1:hover {
+      background: #9e0000;
+    }
+    .no-backup {
+      position: relative;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .no-backup::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      color: #fff;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease;
+      z-index: 10;
+    }
+    .no-backup:hover::after {
+      opacity: 1;
+    }
+
+  
+  .lot {
+    color: red;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>OneDrive Backup Links</h1>
+
+    <!-- START: 70 Sites -->
+     <div > <h2>LOT-1</h2>
+    <div class="site"><div class="site-name">132-33 KV GIS MANCHESWAR-B </div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D1%20SITE%20BACKUP%2F132%2D33%20KV%20GIS%20MANCHESWAR%2DB&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">Open Backup</a></div>
+
+
+    <div class="site"><div class="site-name">132-33 KV AIS MANCHESWAR GSS-A</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D1%20SITE%20BACKUP%2F132%2D33%20KV%20AIS%20MANCHESWAR%20GSS%2DA&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">Open Backup</a></div>
+
+
+
+    <div class="site"><div class="site-name">132-33 KV UNIT-8 GIS GSS</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D1%20SITE%20BACKUP%2F132%2D33%20KV%20UNIT%2D8%20GIS%20GSS&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">Open Backup</a></div>
+
+
+    <div class="site"><div class="site-name">132-33 KV KESURA AIS GSS</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D1%20SITE%20BACKUP%2F132%2D33%20KV%20KESURA%20AIS%20GSS&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">Open Backup</a></div>
+</div>
+
+<div class="lot"> <h2>LOT-2</h2>
+    <div class="site"><div class="site-name">220-132-33 KV PRATAPSASAN AIS GSS </div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D2%20SITE%20BACKUP%2F220%2D132%2D33%20KV%20PRATAPSASAN%20AIS%20GSS&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">Open Backup</a></div>
+    
+    <div class="site"><div class="site-name">132-33 KV AIS ASKA GSS</div><a data-tooltip="SAT not completed." class="backup-button1 no-backup " href=" " target="_blank">NO Backup</a></div>
+    
+    <div class="site"><div class="site-name">132KV KONARK</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D2%20SITE%20BACKUP%2F132%2D33%20KV%20KONARK&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    
+    <div class="site"><div class="site-name">132KV SHAMUKA</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D2%20SITE%20BACKUP%2F132%2D33kV%20Shamuka&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    
+    <div class="site"><div class="site-name">132/33KV ARGUL</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D2%20SITE%20BACKUP%2F132%2D33kV%20ARGUL&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    </div>
+    <div class="lot"> <h2>LOT-3</h2>
+    <div class="site"><div class="site-name">132-33 KV AIS ANANDAPUR GSS </div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D3%20SITE%20BACKUP%2F132%2D33%20KV%20AIS%20ANANDAPUR%20GSS&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    <div class="site"><div class="site-name">132-33 KV AIS BASTA</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D3%20SITE%20BACKUP%2F132%2D33%20KV%20AIS%20BASTA&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    <div class="site"><div class="site-name">132-33 KV AIS GSS SAMBALPUR-KXF5</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D3%20SITE%20BACKUP%2F132%2D33kv%20sambalpur&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    <div class="site"><div class="site-name">132-33 KV KENDRAPARA AIS GSS </div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D3%20SITE%20BACKUP%2F132%2D33kV%20Kendrapada&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    <div class="site"><div class="site-name">132-33KV AIS GSS RAYAGADA</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D3%20SITE%20BACKUP%2F132%2D33KV%20AIS%20GSS%20RAYAGADA&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    <div class="site"><div class="site-name">132-33KV AIS GSS RAYAGADA</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D3%20SITE%20BACKUP%2F132%2D33KV%20AIS%20GSS%20RAYAGADA&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+    <div class="site"><div class="site-name">220-132-33 KV GIS CHANDAKA-B </div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D3%20SITE%20BACKUP%2F220%2D132%2D33%20KV%20GIS%20CHANDAKA%2DB&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+
+<div class="lot"> <h2>LOT-4</h2>
+      <div class="site"><div class="site-name">132-33KV AIS GSS KUCHINDA</div><a class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D4%20SITE%20BACKUP%2F132%2D33KV%20AIS%20GSS%20KUCHINDA&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+      <div class="site"><div class="site-name">132-33 KV AIS GSS BHAWANIPATNA</div><a data-tooltip="SAT not completed" class="backup-button1 no-backup " href=" " target="_blank">NO Backup</a></div>
+      <div class="site"><div class="site-name">132-33 KV AIS JAJPUR ROAD GSS</div><a data-tooltip="SAT not completed" class="backup-button1 no-backup" href=" " target="_blank">NO Backup</a></div>
+      
+      <div class="site"><div class="site-name">132-33 KV CHANDBALI GIS GSS-KX4Y</div><a  class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D4%20SITE%20BACKUP%2F132%2D33%20KV%20CHANDBALI%20GIS&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+      <div class="site"><div class="site-name">220-132-33 KV SAS GODA GSS</div><a  class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D4%20SITE%20BACKUP%2F220%2D132%2D33%20KV%20SAS%20GODA%20GSS&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+
+      <div class="lot"> <h2>LOT-5</h2>    
+        <div class="site"><div class="site-name">132-33 KV GSS BRAJRAJNAGAR</div><a  class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D5%20SITE%20BACKUP%2FBRAJRAJNAGAR&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a></div>
+        <div class="site"><div class="site-name">132-33 KV KARANJIA AIS GSS</div><a  class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D5%20SITE%20BACKUP%2FKARANJIA&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a>
+
+        </div>
+        <div class="site"><div class="site-name">220-33 KV AIS GSS MALKANGIRI </div><a  class="backup-button" href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D5%20SITE%20BACKUP%2FMALKANGIRI&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">OPEN Backup</a>
+        </div>
+        
+        <div class="site"><div class="site-name">400/220/132/33 Mendhasal</div><a  data-tooltip="PROJECT IN PROGRESS" class="backup-button1 no-backup " href="" target="_blank">NO Backup</a> </div>
+
+        <div class="site"><div class="site-name">132/33 khuntuni</div><a   data-tooltip="PROJECT IN PROGRESS" class="backup-button1 no-backup " href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D5%20SITE%20BACKUP%2FKHUNTUNI&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">NO Backup</a></div>
+
+
+        <div class="lot"> <h2 class="lot">LOT-6</h2>
+        <div class="site"><div class="site-name">400-220-33 KV AIS GSS LAPANGA</div><a   data-tooltip="SAT IN PROGRESS" class="backup-button1 no-backup " href=" " target="_blank">NO Backup</a></div>
+        <div class="site"><div class="site-name">220 / 33KV  INFOCITY 2</div><a   data-tooltip="PROJECT IN PROGRESS" class="backup-button1 no-backup " href="https://rbhsol-my.sharepoint.com/shared?id=%2Fsites%2FSitePlanning%2FShared%20Documents%2FPROJECTS%2FP688%5FPGCIL%5FOPTCL%2FSAT%2FLOT%2D5%20SITE%20BACKUP%2FINFOCITY%2D2&listurl=https%3A%2F%2Frbhsol%2Esharepoint%2Ecom%2Fsites%2FSitePlanning%2FShared%20Documents" target="_blank">NO Backup</a></div>
+</div>
+
+
+
+
+
+
+  </div>
+</body>
+</html>
